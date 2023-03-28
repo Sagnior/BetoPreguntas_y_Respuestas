@@ -1,4 +1,5 @@
 # Importar
+import streamlit as st
 from string import hexdigits
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering, pipeline  #importamos los módulos que usaremos
 from textwrap import wrap # esto es para que nos muestre el texto en forma de párrafos de muchas lineas en vez de que muestre todo el texto en una sola linea y no pueda caber en la pantalla
